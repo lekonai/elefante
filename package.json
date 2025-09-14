@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "serpapi": "^2.2.1"
+  }
+}

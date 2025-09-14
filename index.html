@@ -16,6 +16,8 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+        <link href="style.css" rel="stylesheet"></link>
+        <script src="script.js" async defer></script>
         <div id = 'selection'>
             <!-- so this'll have the acutal selection -->
             <form id = 'mainForm'>
@@ -25,17 +27,14 @@
                 <input type = "text" id = "theText" name = "theText">
                 <button id = "generator">Generate...</button>
             </form>
-
+            <button id = "tempG" onclick="{getJson}">temporary generator</button>
         </div>
         <div id = 'elephantChoices'>
 
-
         </div>
         <div id = 'output'>
-
-
+            
         </div>
-        <link href="style.css" rel="stylesheet"></link>
-        <script src="script.js" async defer></script>
+        
     </body>
 </html>
